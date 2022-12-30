@@ -1,11 +1,13 @@
 import classes from "./Header.module.css";
 import mealsImg from "../../assets/meals.jpg";
+import HeaderCartButton from "./HeaderCartButton";
+
 function Header(props) {
   return (
     <>
       <header className={classes.header}>
         <h1>React Meals</h1>
-        <button>Cart</button>
+        <HeaderCartButton />
       </header>
       <div>
         <img
